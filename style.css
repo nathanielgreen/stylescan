@@ -1,5 +1,4 @@
 body {
-  color: #ddd;
   font-family: 'Comfortaa';
   margin: 0;
   margin-top: 140px;
@@ -15,6 +14,7 @@ a {
   align-items: center;
   background: #191919;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #ddd;
   display: flex;
   height: 140px;
   position: fixed;
@@ -24,7 +24,7 @@ a {
   #navbar-title {
    flex: 1; 
   }
-    #navbar-title h1 {
+    #navbar-title h3 {
       font-family: 'Montserrat';
       font-size: 42px;
       padding-left: 20px;
@@ -58,11 +58,49 @@ a {
 /* Navbar End */
 
 
-
 /* Header Start */
 #header {
+  align-items: center;
   background: #eee;
-  height: 400px;
+  color: #191919;
+  display: flex;
+  height: 800px;
+  justify-content: center;
   width: 100%;
 }
+  #header h1 {
+    font-family: 'Montserrat';
+    font-size: 56px;
+    max-width: 50%;
+  }
+  #header span {
+    color: #2b2b2b;
+  }
 /* Header End */
+
+
+/* About Start */
+#about {
+  background: #f1f1f1;
+  color: #191919;
+  padding: 20px;
+}
+  #about-header {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+    #about-header h2 {
+      border-bottom: solid;
+      border-color: #191919;
+      font-family: 'Montserrat';
+      font-size: 40px;
+    }
+  #about-content {
+    
+  }
+    #about-content p {
+      text-align: center;
+      font-size: 30px;
+    }
+/* About End */
