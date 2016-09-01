@@ -1,4 +1,51 @@
 body {
+  color: #2f2121;
+  font-family: 'Comfortaa';
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+#navbar {
+  align-items: center;
+  background: #f2f2f2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  display: flex;
+  width: 100%;
+}
+  #navbar-title {
+   flex: 1; 
+  }
+    #navbar-title h1 {
+      font-family: 'Montserrat';
+      font-size: 42px;
+      padding: 10px;
+      padding-left: 20px;
+      text-align: center;
+    }
+  #navbar-links {
+    flex: 2;
+  }
+    #navbar-links ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    #navbar-links li {
+      float: left; 
+    }
+    #navbar-links a {
+      border-bottom: solid;
+      border-color: #000;
+      border-width: 2px;
+      font-size: 26px;
+      margin: 20px;
+    }
+      #navbar-links a:hover {
+        border-color: #a12c2c;
+        color: #a12c2c; 
+      }
