@@ -1,0 +1,32 @@
+@media screen and (max-width: 720px) {
+
+
+/* Navbar Start */
+#navbar {
+  height: 80px;
+}
+  #navbar-title { 
+    display: none;
+  }
+  #navbar-links {
+    text-align: center;
+  }
+    #navbar-links li {
+      display: inline-block;
+      float: none;
+    }
+/* Navbar End */
+
+
+/* Header Start */
+#header {
+  margin: 0;
+}
+  #header h1 {
+    margin: 0;
+    padding: 0;
+  }
+/* Header End */
+
+
+}
