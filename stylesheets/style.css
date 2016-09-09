@@ -71,7 +71,7 @@ h3 {
       border-bottom: solid;
       border-color: #f2f2f2;
       border-width: 2px;
-      font-family: 'Comfortaa';
+      font-family: 'Montserrat';
       font-size: 26px;
       margin: 20px;
     }
@@ -280,6 +280,11 @@ h3 {
       #feature-2-right p {
         padding: 30px;
         font-size: 26px; 
+      }
+      #feature-2-right-download {
+        align-items: center;
+        display: flex;
+        justify-content: center;
       }
   /* Feature 2 End */
 
