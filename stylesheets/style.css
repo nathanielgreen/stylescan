@@ -138,15 +138,18 @@ h3 {
     padding-right: 40px;
   }
     #feature-1-left {
+      align-items: center;
+      display: flex;
       flex: 2;
       font-family: 'Montserrat';
+      justify-content: center;
     }
       #feature-1-left h3 {
         text-align: center;
       }
       #feature-1-left p {
-        padding: 30px;
         font-size: 26px; 
+        padding: 30px;
       }
     #feature-1-right {
       flex: 1;
@@ -182,12 +185,13 @@ h3 {
             width: 80%;
           }
           #feature-1-match button {
-            color: #fff;
             background: #a0a0a0; 
             border: none;
             border-radius: 90px;
-            margin-top: 20px;
+            color: #fff;
+            font-family: inherit;
             font-size: 18px;
+            margin-top: 20px;
             padding: 10px;
           }
   /* Feature 1 End */
@@ -212,8 +216,8 @@ h3 {
           background: url(../images/shorts.jpg);
           background-size: cover;
           background-position: center;
-          height: 100%;
           filter: blur(3px);
+          height: 100%;
           position: absolute;
           width: 100%;
         }
@@ -233,8 +237,8 @@ h3 {
             align-items: center;
             display: flex;
             height: 50%;
-            position: relative;
             justify-content: center;
+            position: relative;
             width: 100%;
           }
             #feature-2-slide-images div {
@@ -275,8 +279,8 @@ h3 {
         text-align: center;
       }
       #feature-3-left p {
-        padding: 30px;
         font-size: 26px; 
+        padding: 30px;
       }
     #feature-3-right {
       flex: 1;
@@ -294,8 +298,8 @@ h3 {
           text-align: left;
         }
           #feature-3-navbar h3 {
-            margin-left: 5%;
             flex: 8;
+            margin-left: 5%;
           }
           #feature-3-navbar span {
             color: #a0a0a0;
