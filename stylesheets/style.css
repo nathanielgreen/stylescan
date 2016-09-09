@@ -262,12 +262,10 @@ h3 {
   /* Feature 2 End */
 
   /* Feature 3 Start */
-  /* Feature 3 End */
   #feature-3 {
     display: flex;
     height: 1000px;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding: 40px;
   }
     #feature-3-left {
       flex: 2;
@@ -283,5 +281,62 @@ h3 {
     #feature-3-right {
       flex: 1;
     }
+      #feature-3-screen {
+        font-family: 'Montserrat';
+      }
+        #feature-3-navbar {
+          align-items: center;
+          background: #191919;
+          color: #f1f1f1;
+          display: flex;
+          height: 10%;
+          width: 100%;
+          text-align: left;
+        }
+          #feature-3-navbar h3 {
+            margin-left: 5%;
+            flex: 8;
+          }
+          #feature-3-navbar span {
+            color: #a0a0a0;
+          }
+          #feature-3-navbar img {
+            margin-right: 5%;
+            height: 50%;
+            flex: 1;
+          }
+        #feature-3-image {
+          background: url(../images/option3.jpg);
+          background-size: cover;
+          background-position: bottom;
+          height: 60%;
+          width: 100%:
+        }
+        #feature-3-userbar {
+          background: #f1f1f1;
+          box-shadow: 2px 2px 4px #a0a0a0;
+          display: flex;
+          height: 10%;
+          width: 100%:
+        }
+          #feature-3-userbar img {
+            border: solid;
+            border-color: #fff;
+            border-width: 4px;
+            border-radius: 180px;
+            flex: 1;
+            height: 80%;
+            width: 50%;
+            margin: 5px;
+            margin-left: 10%;
+          }
+          #feature-3-userbar h5 {
+            color: #191919;
+            flex: 5;
+            font-family: 'Montserrat';
+            margin-left: 10%;
+            text-align: left;
+          }
+  /* Featureture 3 End */
 /* Features End */
 
