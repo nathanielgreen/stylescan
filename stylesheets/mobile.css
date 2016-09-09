@@ -1,11 +1,16 @@
 @media screen and (max-width: 720px) {
 
 body {
-  margin-top: 80px;
+  margin-top: 0px;
+}
+
+.feature {
+  opacity: 1;
 }
 
 /* Navbar Start */
 #navbar {
+  display: none;
   height: 80px;
 }
   #navbar-title { 
@@ -24,6 +29,7 @@ body {
 /* Header Start */
 #header {
   margin: 0;
+  width: 100%;
 }
   #header h1 {
     margin: 0;
