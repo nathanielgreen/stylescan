@@ -10,7 +10,7 @@
 
   <!-- Google Fonts -->
    <link
-   href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat|Ubuntu"
+   href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat|Raleway"
    rel="stylesheet"> 
 
   <!-- Stylesheets -->
@@ -18,6 +18,10 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/mobile.css">
   <link rel="stylesheet" type="text/css" href="stylesheets/animations.css">
   <link rel="stylesheet" href="stylesheets/devices.min.css" type="text/css">
+
+  <!-- Scripts -->
+  <script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 </head>
 <body>
 
@@ -49,7 +53,7 @@
     <div id="about-header" class="header">
       <h2>About</h2>
     </div>
-    <div id="about-content">
+    <div id="about-content" class="hideme">
       <p>StyleScan is an upcoming mobile app that scans real word product,
       traditional advertisements and logos, and not only finds the product, but
       also produces similar alternatives.</p>
@@ -71,15 +75,26 @@
     </div>
 
     <!-- Feature 1 Start -->
-    <div id="feature-1">
+    <div id="feature-1" class="feature">
 
-      <div id="feature-1-left">
+      <div id="feature-1-left" >
         <h3>It's a match!</h3>
         <p> StyleScan is able to scan real-world objects and outfits, and have
         results of that product returned in real-time. </p>
         <p> The app can find you that exact item if it's available with one of
         our partners, otherwise will show you alternate options of similar
         color, shape, and style.
+        <h4>Our Partners:</h4> 
+        <div id="feature-1-left-partners">
+          <div>
+            <img src="images/asoslogo.png" />
+            <img src="images/polerlogo.png" />
+          </div>
+          <div>
+            <img src="images/topmanlogo.png" />
+            <img src="images/zaralogo.png" />
+          </div>
+        </div>
       </div>
 
       <div id="feature-1-right" class="blur">
@@ -96,7 +111,7 @@
                 <h5>It's a Match!</h5>
                 <img src="images/jacket.png" /> 
                 <button>Shop Now!</button>
-                  
+                <button>See Other Outfits</button>
               </div>
             </div>
             <div class="home"></div>
@@ -109,7 +124,7 @@
 
 
     <!-- Feature 2 Start -->
-    <div id="feature-2">
+    <div id="feature-2" class="feature">
 
       <div id="feature-2-left">
         <div class="marvel-device iphone6 silver">
@@ -155,7 +170,7 @@
 
     
     <!-- Feature 3 Start -->
-    <div id="feature-3">
+    <div id="feature-3" class="feature">
       
       <div id="feature-3-left">
         <h3>Shop Products!</h3>
@@ -180,6 +195,11 @@
                 <img src="images/option3.jpg" />
                 <h5>David Lee</h5>
               </div>
+              <div id="feature-3-products">
+                <img src="images/denimshirt.jpeg">
+                <img src="images/skinnyjeans.jpg">
+                <img src="images/watch.jpg">
+              </div>
             </div>
             <div class="home"></div>
             <div class="bottom-bar"></div>
@@ -192,5 +212,8 @@
   </div>
   <!-- Features End -->
 
+
+  <!-- Scripts -->
+  <script src="scripts.js"></script>
 </body>
 </html>
