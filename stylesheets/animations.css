@@ -1,0 +1,75 @@
+#feature-1-background {
+  animation-name: blur;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+#feature-1-match {
+  animation-name: fadein;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate;
+}
+
+.header h2 {
+  animation-name: underline;
+  animation-duration: 1.5s;
+  animation-delay: 1s;
+  animation-iteration-count: forwards;
+  animation-timing-function: linear;
+  animation-direction: normal;
+  animation-fill-mode: forwards;
+}
+
+@keyframes blur {
+  0% {
+    filter: blur(0px);
+  }
+  30% {
+    filter: blur(0px);
+  }
+  70% {
+    filter: blur(4px);
+  }
+  100% {
+    filter: blur(4px);
+  }
+}
+
+@keyframes fadein {
+  0% {
+    display: none;
+    opacity: 0;
+  }
+  1% {
+    display: none;
+    opacity: 0;
+  }
+  30% {
+    display: block;
+    opacity: 0;
+  }
+  70% {
+    display: block;
+    opacity: 1;
+  }
+  100% {
+    display: block;
+    opacity: 1;
+  }
+}
+
+@keyframes underline {
+  to {
+    border-color: #191919;
+  }
+}
+
+@keyframes fadeblack {
+  to {
+    opacity: 100%;
+  }
+}

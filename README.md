@@ -19,3 +19,21 @@ Feature showcase:
 - Non-background image of clothing item pops up
 - Description and price of item appear shortly after
 - See More Button appears, bright/bold from rest of minimal interface.
+
+### 1.1 Choose Outfits
+<div id="id-1.1">
+
+Feature showcase:
+
+- Shop through different outfits
+- Each outfit has different theme e.g. 'daytime glam'
+- Outfits are in bubbles and carousel through
+
+### 1.2 Shop Products
+
+Feature showcase:
+
+- Pick outfit
+- More details given:
+    - No. of items of clothing.
+    - Click an item and see more details.

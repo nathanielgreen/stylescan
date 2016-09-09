@@ -1,0 +1,239 @@
+body {
+  color: #191919;
+  margin: 0;
+  margin-top: 120px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h3 {
+  font-size: 30px;
+}
+  
+.header {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+  .header h2 {
+    border-bottom: solid;
+    border-color: #f1f1f1;
+    font-family: 'Montserrat';
+    font-size: 40px;
+  }
+
+
+
+/* Navbar Start */
+#navbar {
+  align-items: center;
+  background: #191919;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: #ddd;
+  display: flex;
+  height: 120px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+  #navbar-title {
+   flex: 1; 
+  }
+    #navbar-title h3 {
+      font-family: 'Montserrat';
+      font-size: 42px;
+      padding-left: 20px;
+      text-align: center;
+    }
+    #navbar-title span {
+      color: #a0a0a0; 
+    }
+  #navbar-links {
+    flex: 2;
+  }
+    #navbar-links ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    #navbar-links li {
+      float: left; 
+    }
+    #navbar-links a {
+      border-bottom: solid;
+      border-color: #f2f2f2;
+      border-width: 2px;
+      font-family: 'Comfortaa';
+      font-size: 26px;
+      margin: 20px;
+    }
+      #navbar-links a:hover {
+        border-color: #f2f2f2;
+        color: #f2f2f2; 
+      }
+/* Navbar End */
+
+
+/* Header Start */
+#header {
+  align-items: center;
+  background: url(../images/headerimage.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #f2f2f2;
+  display: flex;
+  height: 800px;
+  justify-content: center;
+  width: 100%;
+}
+  #header h1 {
+    font-family: 'Montserrat';
+    font-size: 56px;
+    max-width: 50%;
+  }
+  #header span {
+    color: #a0a0a0;
+  }
+/* Header End */
+
+
+/* About Start */
+#about {
+  background: #f1f1f1;
+  color: #191919;
+  padding: 20px;
+}
+  #about-header {
+  }
+    #about-header h2 {
+    }
+  #about-content {
+    font-family: "Ubuntu"; 
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+    #about-content p {
+      text-align: center;
+      font-size: 30px;
+    }
+/* About End */
+
+
+/* Features Start */
+#features {
+  background: #eee;
+  color: #191919;
+  padding-top: 20px;
+}
+  
+  /* Feature 1 Start */
+  #feature-1 {
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+    #feature-1-left {
+      flex: 2
+    }
+      #feature-1-left h3 {
+        font-family: 'Montserrat';
+        text-align: center;
+      }
+    #feature-1-right {
+      flex: 1;
+      height: 600px;
+    }
+      #feature-1-screen {
+        display: flex;
+        position: relative;
+      }
+        #feature-1-background {
+          background: url(../images/coatimage.jpg);
+          background-size: cover;
+          background-position: center;
+          height: 100%;
+          position: absolute;
+          width: 100%;
+        }
+        #feature-1-match {
+          color: #fff;
+          font-family: 'Montserrat';
+          font-size: 32px;
+          height: 200px;
+          margin: 0 auto;
+          margin-top: 20%;
+          width: 200px;
+        }
+          #feature-1-match img {
+            background: #fff;
+            border-radius: 180px;
+            height: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            width: 80%;
+          }
+          #feature-1-match button {
+            color: #fff;
+            background: #a0a0a0; 
+            border: none;
+            border-radius: 90px;
+            margin-top: 20px;
+            font-size: 18px;
+            padding: 10px;
+          }
+  /* Feature 1 End */
+
+  /* Feature 2 Start */
+  #feature-2 {
+    display: flex;
+    height: 1000px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+    #feature-2-left {
+      flex: 1;
+      padding: 80px;
+    }
+      #feature-2-screen {
+        display: flex;
+        position: relative;
+      }
+        #feature-2-background {
+          background: url(../images/shorts.jpg);
+          background-size: cover;
+          background-position: center;
+          height: 100%;
+          filter: blur(3px);
+          position: absolute;
+          width: 100%;
+        }
+        #feature-2-slide {
+          color: #fff;
+          font-family: 'Montserrat';
+          font-size: 32px;
+          height: 200px;
+          left: 22.5%;
+          position: absolute;
+          top: 15%;
+          width: 200px;
+        }
+          #feature-2-slide h5 {
+          }
+          #feature-2-slide img {
+              background: #fff;
+              border-radius: 180px;
+              height: 100%;
+              margin: 0 auto;
+              object-fit: cover;
+              width: 100%;
+          }
+    #feature-2-right {
+      flex: 2;
+    }
+  /* Feature 2 End */
+/* Features End */
+
