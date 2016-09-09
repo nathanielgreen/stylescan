@@ -165,7 +165,7 @@ h3 {
           font-size: 32px;
           height: 200px;
           margin: 0 auto;
-          margin-top: 20%;
+          margin-top: 10%;
           width: 200px;
         }
           #feature-1-match img {
@@ -200,6 +200,7 @@ h3 {
     }
       #feature-2-screen {
         display: flex;
+        overflow: hidden;
         position: relative;
       }
         #feature-2-background {
@@ -215,22 +216,31 @@ h3 {
           color: #fff;
           font-family: 'Montserrat';
           font-size: 32px;
-          height: 200px;
-          left: 22.5%;
+          height: 100%;
           position: absolute;
-          top: 15%;
-          width: 200px;
+          width: 100%;
         }
           #feature-2-slide h5 {
           }
-          #feature-2-slide img {
-              background: #fff;
-              border-radius: 180px;
-              height: 100%;
-              margin: 0 auto;
-              object-fit: cover;
-              width: 100%;
+          #feature-2-slide-images {
+            align-items: center;
+            display: flex;
+            height: 50%;
+            position: relative;
+            justify-content: center;
+            width: 100%;
           }
+            #feature-2-slide-images div {
+              margin-left: 7.25%;
+              margin-right: 7.25%;
+            }
+            #feature-2-slide-images img {
+              border-radius: 180px;
+              flex: 1;
+              height: 200px;
+              object-fit: cover;
+              width: 200px;
+            }
     #feature-2-right {
       flex: 2;
     }
