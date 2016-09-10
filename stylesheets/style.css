@@ -281,10 +281,9 @@ h3 {
         padding: 30px;
         font-size: 26px; 
       }
-      #feature-2-right-download {
-        align-items: center;
-        display: flex;
-        justify-content: center;
+      #feature-2-right h4 {
+        font-size: 28px;
+        text-align: center;
       }
   /* Feature 2 End */
 
@@ -304,6 +303,11 @@ h3 {
       #feature-3-left p {
         font-size: 26px; 
         padding: 30px;
+      }
+      #feature-3-left-download {
+        align-items: center;
+        display: flex;
+        justify-content: center;
       }
     #feature-3-right {
       flex: 1;
