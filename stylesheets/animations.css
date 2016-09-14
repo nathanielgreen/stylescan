@@ -16,11 +16,20 @@
 
 #feature-2-slide-images {
   animation-name: slideleft;
-  animation-duration: 12s;
   animation-delay: 2s;
+  animation-duration: 12s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
   animation-direction: normal;
+}
+
+#feature-3-overlay {
+  animation-name: fadein;
+  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
 }
 
 .header h2 {
@@ -74,12 +83,6 @@
 @keyframes underline {
   to {
     border-color: #191919;
-  }
-}
-
-@keyframes fadeblack {
-  to {
-    opacity: 100%;
   }
 }
 
