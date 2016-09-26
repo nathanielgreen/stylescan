@@ -30,6 +30,11 @@ The site is not yet mobile ready, and has only been tested on more recent
 versions of Chrome and Firefox. Proper support is not planned for this project,
 as this was only a tech test.
 
+All code was written by [Nathaniel Green](http://github.com/nathanielgreen),
+with no frameworks or bootstrap being used in the design or creation of the
+website, aside from MarvelApp Devices for the transparent images of the phones,
+provided in the [devices.min.css](./stylesheets/devices.min.css) file.
+
 
 
 ## Feature Set
