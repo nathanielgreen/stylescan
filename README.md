@@ -1,15 +1,59 @@
 # StyleScan
 
+## About
+
 One page scrollable website created to showcase the features of the app
 StyleScan, an app that can scan real world products, traditional advertisements
 and logos, and not only find the product but produce similar alternatives.
 
-## Feature Set
+This was a tech test that was mainly design orientated, and therefore most of
+the work went into the HTML and CSS.
 
-  - [1.0 It's a match](#id-1.0)
+The design was of the website was created by me, [Nathaniel
+Green](http://github.com/nathanielgreen), with some inspiriation provided by the
+tech test provider, in the form of a video consisting of similar animations on a
+phone.
+
+All images and logos used a **not** my property, and are merely used as example
+images to act as placeholder for potential images in the app, and would not be
+used in production.
+
+
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- jQuery
+
+The site is not yet mobile ready, and has only been tested on more recent
+versions of Chrome and Firefox. Proper support is not planned for this project,
+as this was only a tech test.
+
+
+
+## Feature Set
+  
+  - [1.0 General Features](#1.0)
+  - [1.1 It's a match](#1.1)
+  - [1.2 Choose Outfits](#1.2)
+  - [1.3 Shop Products](#1.3)
+
+
+
+<div id="1.0" />
+
+# General Features 
+
+- Title screen with name of app on page load
+- Sections fade-in on scroll
+- Animations on phones with information aside them
+
+
+
+<div id="id-1.0" />
 
 ### 1.0 It's a match!
-<div id="id-1.0" />
 
 Feature showcase:
 
@@ -20,20 +64,33 @@ Feature showcase:
 - Description and price of item appear shortly after
 - See More Button appears, bright/bold from rest of minimal interface.
 
+
+
+<div id="id-1.1" />
+
 ### 1.1 Choose Outfits
-<div id="id-1.1">
 
 Feature showcase:
 
 - Shop through different outfits
 - Each outfit has different theme e.g. 'daytime glam'
 - Outfits are in bubbles and carousel through
+- Description of outfit feature: catalog and viewing individual pieces of
+  outifts
+
+
+
+<div id="id-1.2" />
 
 ### 1.2 Shop Products
 
 Feature showcase:
 
 - Pick outfit
+- Username of outfit uploader
+- Click an item and see more details.
 - More details given:
     - No. of items of clothing.
-    - Click an item and see more details.
+    - Price of item
+- Description of shopping feature: View visible outifts individual piecs and
+  prices
