@@ -38,17 +38,18 @@ provided in the [devices.min.css](./stylesheets/devices.min.css) file.
 
 
 ## Feature Set
-  
-  - [1.0 General Features](#1.0)
-  - [1.1 It's a match](#1.1)
-  - [1.2 Choose Outfits](#1.2)
-  - [1.3 Shop Products](#1.3)
+  1. [General Features](#1)
+  2. [It's a match](#2)
+  3. [Choose Outfits](#3)
+  4. [Shop Products](#4)
 
 
 
-<div id="1.0" />
+<div id="1" />
 
-# General Features 
+### General Features 
+
+Feature showcase:
 
 - Title screen with name of app on page load
 - Sections fade-in on scroll
@@ -56,9 +57,9 @@ provided in the [devices.min.css](./stylesheets/devices.min.css) file.
 
 
 
-<div id="id-1.0" />
+<div id="2" />
 
-### 1.0 It's a match!
+### It's a match!
 
 Feature showcase:
 
@@ -71,9 +72,9 @@ Feature showcase:
 
 
 
-<div id="id-1.1" />
+<div id="3" />
 
-### 1.1 Choose Outfits
+### Choose Outfits
 
 Feature showcase:
 
@@ -85,9 +86,9 @@ Feature showcase:
 
 
 
-<div id="id-1.2" />
+<div id="4" />
 
-### 1.2 Shop Products
+### Shop Products
 
 Feature showcase:
 
