@@ -18,6 +18,8 @@ All images and logos used a **not** my property, and are merely used as example
 images to act as placeholder for potential images in the app, and would not be
 used in production.
 
+![screenshot.png](./images/screenshot.png)
+
 
 
 ## Technologies Used
@@ -34,6 +36,20 @@ All code was written by [Nathaniel Green](http://github.com/nathanielgreen),
 with no frameworks or bootstrap being used in the design or creation of the
 website, aside from MarvelApp Devices for the transparent images of the phones,
 provided in the [devices.min.css](./stylesheets/devices.min.css) file.
+
+
+
+## Live Website
+
+A version of this tech test is currently not live anywhere. However if you would
+like to see it in action, feel free to clone down this repository using the
+following commands:
+1. `git clone https://github.com/nathanielgreen/stylescan.git`
+2. `cd stylescan`
+3. `firefox index.html`
+
+Depending on your browser of choice, you may replace `firefox` with
+`google-chrome` for example.
 
 
 
